@@ -7,18 +7,19 @@
     "start-prod": "NODE_ENV=production node ./src/server.js",
     "start-dev": "nodemon ./src/server.js",
     "lint": "eslint ./src",
-    "fix": "eslint ./src --fix",
     "migrate": "node-pg-migrate"
   },
   "keywords": [],
   "author": "Galih Muhammad Ramdan <galihmramdan17@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^7.30.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.1",
     "nodemon": "^2.0.9",
     "prettier": "^2.3.2"
   },
