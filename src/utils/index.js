@@ -1,5 +1,11 @@
 /* eslint-disable camelcase */
-const mapDBToModel = ({
+const mapDBToModel = ({ id, title, performer }) => ({
+  id,
+  title,
+  performer,
+});
+
+const mapDBToModelDetail = ({
   id,
   title,
   year,
@@ -19,4 +25,4 @@ const mapDBToModel = ({
   updatedAt: updated_at,
 });
 
-module.exports = { mapDBToModel };
+module.exports = { mapDBToModel, mapDBToModelDetail };
